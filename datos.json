@@ -1,0 +1,6 @@
+[{"id":2,"modelo":"Nike Air Max","color":"Multicolor","precio":26000,"cantidad":1,"img":"img/Nike1.jpg"},
+{"id":3,"modelo":"Nike Jordan","color":"negro","precio":20000,"cantidad":1,"img":"img/Nike2.jpg"},
+{"id":1,"modelo":"Vans","color":"Negras","precio":7500,"cantidad":1,"img":"img/Vans.jpg"},
+{"id":4,"modelo":"Converse","color":"blanco","precio":16000,"cantidad":1,"img":"img/Converse.jpg"},
+{"id":5,"modelo":"Nike court","color":"blanco","precio":14000,"cantidad":1,"img":"img/Nike3.jpg"},
+{"id":6,"modelo":"Nike run","color":"negro","precio":15000,"cantidad":1,"img":"img/Nike4.jpg"}]
