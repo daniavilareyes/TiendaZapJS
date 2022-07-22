@@ -122,7 +122,7 @@ let tabla = document.getElementById("tablabody");
 function agregarDatos(Articulo) {
     /// crear row de articulos
     let row = document.createElement("tr");
-    row.innerHTML = `<th>${Articulo.id}</th><th>${Articulo.modelo}</th><th>${Articulo.color}</th><th>${Articulo.precio}</th><th><button class="eliminar-item btn btn-danger" id="#${Articulo.id}"></button></th>`;
+    row.innerHTML = `<th>${Articulo.id}</th><th>${Articulo.modelo}</th><th>${Articulo.color}</th><th>${Articulo.precio}</th><th><button class="eliminar-item btn btn-danger"></button></th>`;
     tabla.append(row);
 
     /// splice y  boton eliminar
