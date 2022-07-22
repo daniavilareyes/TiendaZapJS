@@ -11,12 +11,12 @@ class Articulo {
 
 }
 
-const nikeairmax= ( new Articulo ("2", "Nike Air Max", "Multicolor", "26000", "1", "img/Nike1.jpg" ));
-const nikejordan= ( new Articulo ("3", "Nike Jordan", "Negro", "20000", "1", "img/Nike2.jpg" ));
-const Vans= ( new Articulo ("1", "Vans", "Negro", "10000", "1", "img/Vans.jpg" ));
-const Converse= ( new Articulo ("4", "Converse", "Blanco", "15000", "1", "img/Converse.jpg" ));
-const Nikecourt= ( new Articulo ("5", "Nike Court", "Blanco", "19000", "1", "img/Nike3.jpg" ));
-const Nikerun= ( new Articulo ("6", "Nike run", "Negro", "19000", "1", "img/Nike4.jpg" ));
+const nikeairmax= ( new Articulo ("2", "Nike Air Max", "Multicolor", "26000", "1", "./Img/Nike1.jpg" ));
+const nikejordan= ( new Articulo ("3", "Nike Jordan", "Negro", "20000", "1", "./Img/Nike2.jpg" ));
+const Vans= ( new Articulo ("1", "Vans", "Negro", "10000", "1", "./Img/Vans.jpg" ));
+const Converse= ( new Articulo ("4", "Converse", "Blanco", "15000", "1", "./Img/Converse.jpg" ));
+const Nikecourt= ( new Articulo ("5", "Nike Court", "Blanco", "19000", "1", "./Img/Nike3.jpg" ));
+const Nikerun= ( new Articulo ("6", "Nike run", "Negro", "19000", "1", "./Img/Nike4.jpg" ));
 const productos = [nikeairmax, nikejordan, Vans, Converse, Nikecourt, Nikerun];
 
 
