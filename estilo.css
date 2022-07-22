@@ -156,6 +156,11 @@
   padding: 30px;
 }
 
+.imgfooter {
+  width: 30px;
+  height: auto;
+}
+
 .principal {
   display: flex;
   justify-content: center;

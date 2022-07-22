@@ -53,7 +53,7 @@ iniciar()
 function AgregarCarrito(e) {
     e.target.setAttribute("disabled", true);
     e.target.innerHTML = "Agregado";
-    let productoClickeado = zapatos.find((item) => item.id == e.target.id);
+    let productoClickeado = productos.find((item) => item.id == e.target.id);
     almacenados.push(productoClickeado);
     const guardarLocal = (clave, valor) => {
         localStorage.setItem(clave, valor)
@@ -93,7 +93,7 @@ botonBusqueda.addEventListener("click", function(e) {
     e.preventDefault();
     const barraBusqueda = document.querySelector(".barraBusqueda").value;
     console.log(barraBusqueda);
-    let resultadoBusqueda = zapatos.filter((articulo) => articulo.modelo.toLowerCase().includes(barraBusqueda));
+    let resultadoBusqueda = productos.filter((articulo) => articulo.modelo.toLowerCase().includes(barraBusqueda));
     const rowcard = document.getElementById("rowcard");
     rowcard.innerHTML = "";
     for (const articulo of resultadoBusqueda) {
@@ -105,9 +105,9 @@ botonBusqueda.addEventListener("click", function(e) {
 
 botonOrdenar = document.querySelector(".ordenar");
 botonOrdenar.onclick = () => {
-    zapatos.sort((actual, siguiente) => actual.precio - siguiente.precio);
+    productos.sort((actual, siguiente) => actual.precio - siguiente.precio);
     rowcard.innerHTML = "";
-    zapatos.forEach((Articulo) => {
+    productos.forEach((Articulo) => {
         nuevaCards(Articulo);
     });
 }
